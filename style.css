@@ -185,3 +185,165 @@ Education
     margin-top:15px;
     color:#bbb;
 }
+/* ===========================
+Skills
+=========================== */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.skills span{
+    background:#1e293b;
+    color:#fff;
+    padding:15px 30px;
+    border-radius:50px;
+    transition:.3s;
+    border:2px solid transparent;
+    cursor:pointer;
+    font-weight:500;
+}
+
+.skills span:hover{
+    background:#00d4ff;
+    color:#000;
+    transform:translateY(-8px);
+}
+
+/* ===========================
+Project
+=========================== */
+
+.project-card{
+    max-width:900px;
+    margin:auto;
+    background:#1e293b;
+    padding:35px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(0,212,255,.4);
+}
+
+.project-card h3{
+    color:#00d4ff;
+    margin-bottom:20px;
+}
+
+.project-card p{
+    line-height:30px;
+    color:#ddd;
+}
+
+/* ===========================
+Contact
+=========================== */
+
+.contact{
+    max-width:700px;
+    margin:auto;
+    background:#1e293b;
+    padding:40px;
+    border-radius:15px;
+}
+
+.contact p{
+    margin:18px 0;
+    font-size:18px;
+}
+
+.contact i{
+    color:#00d4ff;
+    margin-right:12px;
+    width:25px;
+}
+
+/* ===========================
+Footer
+=========================== */
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#08111f;
+    color:#aaa;
+    margin-top:80px;
+}
+
+/* ===========================
+Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.left h1{
+    font-size:42px;
+}
+
+.right img{
+    width:280px;
+    height:280px;
+}
+
+nav ul{
+    display:none;
+}
+
+.about{
+    padding:25px;
+}
+
+}
+
+@media(max-width:600px){
+
+.left h1{
+    font-size:34px;
+}
+
+.left h2{
+    font-size:20px;
+}
+
+.title{
+    font-size:30px;
+}
+
+.right img{
+    width:220px;
+    height:220px;
+}
+
+.btn{
+    padding:12px 28px;
+}
+
+.skills span{
+    padding:12px 20px;
+    font-size:14px;
+}
+
+.card{
+    padding:20px;
+}
+
+.project-card{
+    padding:25px;
+}
+
+.contact{
+    padding:25px;
+}
+
+}
