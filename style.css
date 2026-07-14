@@ -1,0 +1,187 @@
+/* ===========================
+   Google Font
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+}
+
+/* ===========================
+Header
+=========================== */
+
+header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#0f172a;
+    z-index:999;
+    box-shadow:0 2px 15px rgba(0,0,0,.4);
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#00d4ff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:500;
+}
+
+nav ul li a:hover{
+    color:#00d4ff;
+}
+
+/* ===========================
+Hero
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 8%;
+    gap:60px;
+}
+
+.left{
+    flex:1;
+}
+
+.left h3{
+    color:#00d4ff;
+    margin-bottom:10px;
+}
+
+.left h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.left h2{
+    color:#9fdfff;
+    margin-bottom:20px;
+}
+
+.left p{
+    color:#d9d9d9;
+    line-height:30px;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00d4ff;
+    color:#000;
+    text-decoration:none;
+    padding:14px 35px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#fff;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.right img{
+    width:360px;
+    height:360px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #00d4ff;
+    box-shadow:0 0 40px rgba(0,212,255,.4);
+}
+
+/* ===========================
+Section
+=========================== */
+
+section{
+    padding:90px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:50px;
+    color:#00d4ff;
+}
+
+/* ===========================
+About
+=========================== */
+
+.about{
+    max-width:900px;
+    margin:auto;
+    background:#1e293b;
+    padding:40px;
+    border-radius:15px;
+    line-height:32px;
+    box-shadow:0 0 15px rgba(0,0,0,.4);
+}
+
+/* ===========================
+Education
+=========================== */
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(0,212,255,.4);
+}
+
+.card h3{
+    color:#00d4ff;
+}
+
+.card span{
+    display:inline-block;
+    margin-top:15px;
+    color:#bbb;
+}
