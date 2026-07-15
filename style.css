@@ -356,3 +356,12 @@ nav ul{
 .card strong{
     color:#00d4ff;
 }
+
+.contact a{
+    color:white;
+    text-decoration:none;
+}
+
+.contact a:hover{
+    color:#00d4ff;
+}
